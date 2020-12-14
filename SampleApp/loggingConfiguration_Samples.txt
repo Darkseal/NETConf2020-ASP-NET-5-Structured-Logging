@@ -1,0 +1,47 @@
+// ESEMPIO 1
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Warning"
+    }
+  }
+}
+
+
+
+
+// ESEMPIO 2
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "Microsoft": "Debug",
+      "Microsoft.Hosting.Lifetime": "Debug"
+    }
+  }
+}
+
+
+
+// ESEMPIO 3
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "Microsoft": "Debug",
+      "Microsoft.Hosting.Lifetime": "Debug"
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft": "Warning",
+        "Microsoft.Hosting.Lifetime": "Information"
+      }
+    }
+  }
+}
